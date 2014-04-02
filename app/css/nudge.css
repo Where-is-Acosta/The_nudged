@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Fascinate+Inline);
+h1
+  {  
+    font-size: 48px;
+    font-family: 'Fascinate Inline', cursive;
+  }
+p
+  {
+    font-size: 18px;
+    font-family: helvetica, arial, sans-serif;
+  }
+.wrap
+  {
+    text-align: center;
+    width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+#mix
+  {
+    display: none;
+  }

@@ -1,0 +1,11 @@
+{
+  "name": "nudge",
+  "description": "The desktop counterpart to the alarmclock that can do anything",
+  "version": "0.0.1",
+  "main": "views/index.html",
+  "window": {
+    "toolbar": true,
+    "width": 640,
+    "height": 480
+  }
+}
