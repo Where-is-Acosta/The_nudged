@@ -17,8 +17,9 @@ http.createServer(function (request, responce) {
 function nudge(queryObject) {
   document.body.innerHTML == "";
   alarm = queryObject;
-  var fragment = notifcation('<div><h1>Alarm </h1></div><p>' + alarm.name + ' is going off at ' + alarm.time + '</p>');
-  setAlarm(timeMinutes);
+  var fragment = notifcation('<div><h1>Alarm </h1></div><p>' + alarm.name + ' is going off at ' + alarm.time + '</p>');  
+  insertMix(alarm.mix);
+  //setAlarm(timeMinutes);
   document.body.insertBefore(fragment, document.body.childNodes[0]);
   document.getElementById("mix").style.display="block";
 }

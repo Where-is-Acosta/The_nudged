@@ -1,0 +1,12 @@
+== Nudge V0.0.2
+
+Desktop client for Alarming
+
+
+= Installation
+
+Execute the app with NodeWebkit
+
+Requires a codedec to be added to NodeWebkit, found in the deps folder in the root of the repo.
+
+Early MVP
