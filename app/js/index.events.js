@@ -3,7 +3,7 @@ var http = require('http');
 var url = require('url');
 var alarm
 var date = new Date();
-
+var mix 
 http.createServer(function (request, responce) {
   responce.writeHead(200);
   responce.write("Cheers buddy!");
@@ -36,15 +36,11 @@ function notifcation(htmlStr) {
 
 function setAlarm(time) {
   var current_minute = date.getMinutes();
-
   insertMix(alarm.mix);
 }
 
 function insertMix(url) {
-  ifrm = document.createElement("IFRAME");
-  ifrm.setAttribute("src", url);
-  ifrm.style.width = 300+"px";
-  ifrm.style.height = 300+"px";
+  mix = url;
   div = document.getElementById("mix");
-  div.appendChild(ifrm);
+  div.innerHTML = mix;
 }
